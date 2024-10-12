@@ -7,11 +7,11 @@ import os
 from us_visa.constants import DATABASE_NAME
 import pymongo
 import certifi
-
+ 
 from dotenv import dotenv_values
 
 
-config = dotenv_values("..\constants\.env")
+config = dotenv_values("us_visa\constants\.env")
 
 
 MONGODB_URL_KEY = config["MONGODB_URL_KEY"]
