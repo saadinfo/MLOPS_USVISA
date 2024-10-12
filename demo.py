@@ -4,5 +4,5 @@ from us_visa.logger import logging
 
 logging.info("Welcome to logs")
 
-# obj = TrainPipeline()
-# obj.run_pipeline()
+obj = TrainPipeline()
+obj.run_pipeline()
